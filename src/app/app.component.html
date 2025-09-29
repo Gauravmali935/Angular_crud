@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>User Management</h2>
+  <h2>User Management ({{userStore.users().length}})</h2>
   <div class="shadow-sm rounded bg-white p-4">
     <form [formGroup]="userForm" (ngSubmit)="save()">
       <div class="row g-3">
